@@ -1,8 +1,10 @@
+import { AdviceCard } from './components'
+
 function App () {
   return (
-    <>
-      <h1>🖐️ Hi everyone welcome to a new project 😎</h1>
-    </>
+    <main className='main'>
+      <AdviceCard />
+    </main>
   )
 }
 

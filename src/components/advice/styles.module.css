@@ -1,0 +1,82 @@
+.card {
+  background-color: var(--Dark-Grayish-Blue);
+  padding: 3rem 2rem 6rem;
+  border-radius: 1.2rem;
+  max-width: 34rem;
+  min-width: min(34rem, 90%);
+  position: relative;
+
+  @media screen and (min-width: 750px) {
+    padding: 4rem 4rem 7rem;
+    max-width: 52rem;
+  }
+}
+
+.cardHeader {
+
+  & h3 {
+    color: var(--NeonGreen);
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+
+    & span {
+      margin-left: .5rem;
+    }
+  }
+}
+
+.cardContent {
+  & p {
+    color: var(--Light-Cyan);
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 1.8rem;
+    margin-top: 1.8rem;
+
+    &::before,
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 1.5rem;
+      height: 2.5rem;
+    }
+
+    &::before {
+      background: url('/quotationOpen.svg') no-repeat center/150%;
+      background-position: 25% -150%;
+    }
+
+    &::after {
+      background: url('/quotationClose.svg') no-repeat center/150%;
+      background-position: 90% -150%;
+    }
+  }
+
+  &::after {
+    content: '';
+    background: url(/pattern-divider-mobile.svg) no-repeat center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 2.5rem;
+  }
+}
+
+.cardFooter {
+  & a {
+    background-color: var(--NeonGreen);
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -3rem;
+    z-index: 100;
+
+    &:hover {
+      box-shadow: .2rem .2rem 2.5rem var(--NeonGreen);
+    }
+  }
+}

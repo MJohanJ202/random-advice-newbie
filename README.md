@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Frontend Mentor - QR advice generator 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Welcome Friend! 👋 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I have done this challenge, I'm practicing with a simple react since. 
+it is a fairly simple project that does not require too much attention but still fun. 
+I'm open to any feedback you can give me. I think it can still be improved and add more
+ functionality to make it a better card. 😄🖐️
 
-## Expanding the ESLint configuration
+## The challenge - newbie
+This challenge is built with React, css modules using  and public 
+API the [adviceslip](https://api.adviceslip.com/advice) 
+is a simple api that does not require authentication or an api key 
+to be used in my case I have used the random endpoint to bring a random quote
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Building project 
+React, TypeScript, css Modules and native (var, Nesting, modules), 
+ViteJS, TypeScript and as execution entrainment BunJS 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Deploying challenge with
+- [GitHub Pages](https://frederick905.github.io/random-advice-card/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**I Had fun reviewing and building this challenge!** 🚀
